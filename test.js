@@ -29,7 +29,7 @@ var isValid = function (s) {
     }
     return stack.length === 0;
 };
-var s = '([]{)}';
+var s = '()';
 console.log(isValid(s)); // true
 s = '({)}';
 console.log(isValid(s)); // false
